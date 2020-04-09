@@ -1,5 +1,5 @@
 {
-  "name": "webpack",
+  "name": "webpack-base",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/genkifsoft/webpack/issues"
   },
-  "homepage": "https://github.com/genkifsoft/webpack#readme"
+  "homepage": "https://github.com/genkifsoft/webpack#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1"
+  }
 }
