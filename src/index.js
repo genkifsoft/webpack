@@ -1,5 +1,4 @@
-import sum from './math';
-
+const sum = require('./math');
 const total = sum(3, 5);
 
 console.log(total);
