@@ -3,7 +3,7 @@ const path = require('path');
 const config = {
     entry: './src/index.js',
     output: {
-        filename: 'build',
+        filename: 'build.js',
         path: path.resolve(__dirname, 'build'),// tạo đường dẫn tuyệt đối cho folder
     }
 }
