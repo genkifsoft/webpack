@@ -5,6 +5,14 @@ const config = {
     output: {
         filename: 'build.js',
         path: path.resolve(__dirname, 'build'),// tạo đường dẫn tuyệt đối cho folder
+    },
+    module: {
+        rules: [
+            {
+                use: 'babel-loader',
+                test: /\.js$/
+            }
+        ]
     }
 }
 

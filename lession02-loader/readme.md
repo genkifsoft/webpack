@@ -1,4 +1,4 @@
-## Webpack https://github.com/genkifsoft/webpack.git
+## Webpack
 ### Hướng dẫn cài đặt webpack
 
 #### Cài đặt webpack. Run cmd
@@ -32,8 +32,4 @@
 ### Module load css vào js
 ```bash
     npm install --save-dev style-loader css-loader
-```
-### Tìm hiểu thêm
-```bash
-    npm install --save-dev extract-text-webpack-plugin@next
 ```
