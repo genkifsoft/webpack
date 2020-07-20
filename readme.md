@@ -9,6 +9,10 @@
 ```bash
     touch webpack.config.js
 ```
+### Biến đổi ES6(ES2015) thành ES5
+```bash
+    npm install --save-dev babel-loader babel-core babel-preset-env
+```
 ### Chạy webpack
 ```bash
     npm install -g webpack
